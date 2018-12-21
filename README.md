@@ -1,4 +1,4 @@
-# ExeFS-Manager
+# ExeFSManager
 An app that can enable or disable your ExeFS mods
 
 (this is an example app. it only works with SMO + atmosphere but you can learn how to do other games and CFWs in the next section)
