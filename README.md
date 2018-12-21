@@ -10,7 +10,7 @@ Go to either [This](https://switchbrew.org/wiki/Title_list/Games) or [This](http
 
 Make sure you have [Notepad++](https://notepad-plus-plus.org/) installed.
 
-Download [The Source Code](https://github.com/CVFireDragon/ExeFS-Manager/archive/master.zip) of this Repo and open "Makefile" in Notepad++.
+Download [The Source Code](https://github.com/CVFireDragon/ExeFS-Manager/archive/master.zip) of this Repo (if you haven't already) and open "Makefile" in Notepad++.
 
 Go to Line 33 and change "SMO" to whatever game you want.
 
@@ -35,7 +35,7 @@ Move on to the "Compiling" or "CFW" Section
 ## CFW
 Make sure you have [Notepad++](https://notepad-plus-plus.org/) installed.
 
-Download [The Source Code](https://github.com/CVFireDragon/ExeFS-Manager/archive/master.zip) of this Repo.
+Download [The Source Code](https://github.com/CVFireDragon/ExeFS-Manager/archive/master.zip) of this Repo. (if you haven't already)
 
 Open the "source" folder and open "main.cpp" in Notepad++.
 
@@ -47,4 +47,21 @@ Enter whatever CFW you want to change to into "Replace with :".
 
 Click "Replace All" and Save the file.
 
-Move on to the "Compiling" Section
+Move on to the "Compiling" Section.
+
+# Compiling
+Make sure [devkitPro](https://github.com/devkitPro/installer/releases) with Switch Support is installed.
+
+Download [The Source Code](https://github.com/CVFireDragon/ExeFS-Manager/archive/master.zip) of this Repo. (if you haven't already)
+
+Open "Build.bat"
+
+It will auto-build for you!
+
+# Credits
+[CaptinNemrac](https://github.com/CaptinNemrac) For the original Closed-Source app (sparked this idea)
+
+[HippyDave](https://gbatemp.net/threads/how-can-i-rename-a-specific-file-with-homebrew.526737/) For help with renaming the files
+
+# Story
+Once upon a time, I was downloading the SMO Moonjump ExeFS Mod. I found a file in the .zip called "odyssey.nro" and I tried booting it up with Homebrew. It was pretty cool, because I found out it was a ExeFS enabler / disabler. I studied what the app did and I found out that it renamed the ExeFS Mod to something else and Vice-Versa. I couldn't find any source code, so I forgot about it for a couple months. Until today! (12/20/18) When I remembered about this and posted [This](https://gbatemp.net/threads/how-can-i-rename-a-specific-file-with-homebrew.526737/) to GBATemp. A nice guy named HippyDave gave me a few tips, so I went out and wrote this app. The End!
