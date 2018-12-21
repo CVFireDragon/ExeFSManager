@@ -3,9 +3,9 @@ An app that can enable or disable your ExeFS mods
 
 (this is an example app. it only works with SMO + atmosphere but you can learn how to do other games and CFWs in the next section)
 
-## Changing Games and CFW
+# Changing Games and CFW
 
-### Games
+## Games
 Go to either [This](https://switchbrew.org/wiki/Title_list/Games) or [This](http://nswdb.com/) Website and find the "Title ID" of the game.
 
 Make sure you have [Notepad++](https://notepad-plus-plus.org/) installed.
@@ -22,8 +22,29 @@ Open the "source" folder and open "main.cpp" in Notepad++.
 
 Go to Line 12 and change "SMO" to whatever game you want and "CVFD" to whatever your Username is.
 
-Go to Line 25 and change "0100000000010000" (on both sides) to the "Title ID" you got earlier.
+Press CTRL + F and Select the "Replace" tab.
 
-Go to Line 35 and change "0100000000010000" (on both sides) to the "Title ID" you got earlier.
+Enter "0100000000010000" into "Find what :".
 
-Save "main.cpp".
+Enter the "Title ID" you got earlier into "Replace with :".
+
+Click "Replace All" and Save the file.
+
+Move on to the "Compiling" or "CFW" Section
+
+## CFW
+Make sure you have [Notepad++](https://notepad-plus-plus.org/) installed.
+
+Download [The Source Code](https://github.com/CVFireDragon/ExeFS-Manager/archive/master.zip) of this Repo.
+
+Open the "source" folder and open "main.cpp" in Notepad++.
+
+Press CTRL + F and Select the "Replace" tab.
+
+Enter "atmosphere" into "Find what :".
+
+Enter whatever CFW you want to change to into "Replace with :".
+
+Click "Replace All" and Save the file.
+
+Move on to the "Compiling" Section
