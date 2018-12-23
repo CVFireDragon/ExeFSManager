@@ -63,7 +63,9 @@ It will auto-build for you!
 
 [HippyDave](https://gbatemp.net/threads/how-can-i-rename-a-specific-file-with-homebrew.526737/) For help with renaming the files
 
-[The-4n](https://github.com/The-4n) and [XorTroll](https://github.com/XorTroll) For their amazing help with Building the NSP.
+[XorTroll](https://github.com/XorTroll) For amazing help with Building the NSP.
+
+[The-4n](https://github.com/The-4n) For making hacBrewPack (to build nsp) and nacptool (for making nacp)
 
 # Story
 Once upon a time, I was downloading the SMO Moonjump ExeFS Mod. I found a file in the .zip called "odyssey.nro" and I tried booting it up with Homebrew. It was pretty cool, because I found out it was a ExeFS enabler / disabler. I studied what the app did and I found out that it renamed the ExeFS Mod to something else and Vice-Versa. I couldn't find any source code, so I forgot about it for a couple months. Until today! (12/20/18) When I remembered about this and posted [This](https://gbatemp.net/threads/how-can-i-rename-a-specific-file-with-homebrew.526737/) to GBATemp. A nice guy named HippyDave gave me a few tips, so I went out and wrote this app. The End!
