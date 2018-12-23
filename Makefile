@@ -33,7 +33,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 APP_TITLE := ExeFS Manager - SMO
 APP_AUTHOR := CVFD
 APP_VERSION := 1.0
-APP_TITLEID := 01040207060001112
+APP_TITLEID := 0104020706000112
 ICON := icon.jpg
 
 TARGET		:=	binaries/exefsman
