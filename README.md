@@ -43,11 +43,66 @@ Press CTRL + F and Select the "Replace" tab.
 
 Enter "atmosphere" into "Find what :".
 
-Enter whatever CFW you want to change to into "Replace with :".
+Enter whatever CFW you want to change to in "Replace with :".
 
 Click "Replace All" and Save the file.
 
 Move on to the "Compiling" Section.
+
+# Changing Name, Author and Version (.nsp)
+Make sure you have [Notepad++](https://notepad-plus-plus.org/) installed.
+
+Download [The Source Code](https://github.com/CVFireDragon/ExeFS-Manager/archive/master.zip) of this Repo. (if you haven't already)
+
+## Author Replacing
+
+Open the "BuildTools" folder and open the "nacp" folder.
+
+Open "control.xml" in Notepad++.
+
+Press CTRL + F and Select the "Replace" tab.
+
+Enter "CVFD" into "Find what :".
+
+Enter your username into "Replace with :".
+
+Click "Replace All" and Save the file.
+
+## Name Replacing
+
+Open the "BuildTools" folder and open the "nacp" folder.
+
+Open "control.xml" in Notepad++.
+
+Press CTRL + F and Select the "Replace" tab.
+
+Enter "ExeFSManager" into "Find what :".
+
+Enter the name of the App into "Replace with :".
+
+Click "Replace All" and Save the file.
+
+## Version Replacing
+
+Open the "BuildTools" folder and open the "nacp" folder.
+
+Open "control.xml" in Notepad++.
+
+Press CTRL + F and Select the "Find" tab.
+
+Enter "DisplayVersion" into "Find what :" and Click "Find Next".
+
+Find "1.0" and replace it with the Version of the App.
+
+## Building the NACP
+
+Open the "BuildTools\nacp" folder and Run "BuildNACP.bat".
+
+Find "control.nacp" and copy it.
+
+Go up to the Root of the source code and open the "Control" folder.
+
+Paste and replace the control.nacp.
 
 # Compiling
 Make sure [devkitPro](https://github.com/devkitPro/installer/releases) with Switch Support is installed.
