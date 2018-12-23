@@ -5,7 +5,7 @@ del ExeFs\main >nul 2>nul
 mkdir binaries
 make
 copy binaries\exefsman.nso ExeFs\main
-BuildTools\hacbrewpack.exe -k BuildTools\keys.dat --exefsdir=ExeFs --noromfs --nologo --controldir=Control --nspdir=binaries
+BuildTools\hbp\hacbrewpack.exe -k BuildTools\keys.dat --exefsdir=ExeFs --noromfs --nologo --controldir=Control --nspdir=binaries
 ren binaries\0104020706000112.nsp exefsman.nsp
 del binaries\exefsman.elf >nul 2>nul
 del binaries\exefsman.pfs0 >nul 2>nul
