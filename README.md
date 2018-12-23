@@ -3,7 +3,7 @@ An app that can enable or disable your ExeFS mods
 
 (this is an example app. it only works with SMO + atmosphere but you can learn how to do other games and CFWs in the next section)
 
-# Changing Games and CFW
+# Changing Games and CFW (.nro)
 
 ## Games
 Go to either [This](https://switchbrew.org/wiki/Title_list/Games) or [This](http://nswdb.com/) Website and find the "Title ID" of the game.
@@ -62,6 +62,8 @@ It will auto-build for you!
 [CaptinNemrac](https://github.com/CaptinNemrac) For the original Closed-Source app (sparked this idea)
 
 [HippyDave](https://gbatemp.net/threads/how-can-i-rename-a-specific-file-with-homebrew.526737/) For help with renaming the files
+
+[The-4n](https://github.com/The-4n) and [XorTroll](https://github.com/XorTroll) For their amazing help with Building the NSP.
 
 # Story
 Once upon a time, I was downloading the SMO Moonjump ExeFS Mod. I found a file in the .zip called "odyssey.nro" and I tried booting it up with Homebrew. It was pretty cool, because I found out it was a ExeFS enabler / disabler. I studied what the app did and I found out that it renamed the ExeFS Mod to something else and Vice-Versa. I couldn't find any source code, so I forgot about it for a couple months. Until today! (12/20/18) When I remembered about this and posted [This](https://gbatemp.net/threads/how-can-i-rename-a-specific-file-with-homebrew.526737/) to GBATemp. A nice guy named HippyDave gave me a few tips, so I went out and wrote this app. The End!
